@@ -1,0 +1,71 @@
+# Flutter
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+ios/.generated/
+ios/Flutter/Generated.xcconfig
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Android
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+local.properties
+
+# iOS/XCode
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+**/xcshareddata
+**/.swiftpm
+.build/
+DerivedData/
+*.hmap
+*.ipa
+*.xcscmblueprint
+*.xccheckout
+*.xcuserstate
+.symlinks/
+profile
+xcuserdata
+Pods/
+ios/Podfile.lock
+
+# Web
+.dart_tool/
+web/assets/generated/
+
+# Miscellaneous
+*.log
+*.pyc
+*.swp
+.atom/
+.vscode/
+flutter_*.png
+linked_*.ds
+unlinked.ds
+unlinked_spec.ds
+
+# Exceptions to the above rules.
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
