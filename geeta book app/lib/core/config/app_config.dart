@@ -1,6 +1,7 @@
 class AppConfig {
   static const String appName = 'Geeta Book';
-  static const String apiBaseUrl = 'http://192.168.0.125:3000/api';
+  // static const String apiBaseUrl = 'http://192.168.0.125:3000/api';
+  static const String apiBaseUrl = 'https://geeta-book-app.vercel.app/api';
   static const String apiVersion = 'v1';
   
   // API Endpoints
